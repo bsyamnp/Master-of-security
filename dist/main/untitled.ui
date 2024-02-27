@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>738</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Master of security</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>cyber-security.png</normaloff>cyber-security.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 85, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>738</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Comic Sans MS&quot;;
+color: rgb(224, 229, 255);
+color: rgb(85, 0, 127);</string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="bastapky_bet">
+     <attribute name="title">
+      <string>Бастапқы бет</string>
+     </attribute>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>371</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Colonna MT</family>
+        <pointsize>28</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 28pt &quot;Colonna MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Master of security</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>741</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>20</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;PMingLiU-ExtB&quot;;
+color: rgb(230, 236, 255);</string>
+      </property>
+      <property name="text">
+       <string>- бастапқы бет</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>221</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-style: solid;
+border-radius: 10px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>free-icon-cyber-security-3518889.png</normaloff>free-icon-cyber-security-3518889.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>241</width>
+        <height>221</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_paidaly">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>400</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(216, 217, 255);
+background-color: rgb(43, 0, 65);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string>Пайдалы кеңестер</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>80</y>
+        <width>441</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Comic Sans MS</family>
+        <pointsize>9</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Киберқауіпсіздік құпия деректерді, ақпаратты қорғауға қатысты барлық нәрсені қамтиды. Сол себепті бұл қосымша сізге келесі сервистерді ұсынады:&lt;/p&gt;&lt;p&gt;- Файлдарды тексеру&lt;/p&gt;&lt;p&gt;- Қауіпсіз құпиясөз құрау&lt;/p&gt;&lt;p&gt;- Документтерді хэштеу&lt;/p&gt;&lt;p&gt;- &lt;span style=&quot; font-family:'Calibri,sans-serif'; font-size:11pt;&quot;&gt;Стеганография және т.б.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_aboutUs">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>400</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(216, 217, 255);
+background-color: rgb(43, 0, 65);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string>Біз туралы</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_getService">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>400</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(216, 217, 255);
+background-color: rgb(43, 0, 65);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string>Сервистер</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="service_bet">
+     <attribute name="title">
+      <string>Сервистер</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_getBlockWeb">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>161</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>free-icon-web-lock-7146783.png</normaloff>free-icon-web-lock-7146783.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>160</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>371</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Colonna MT</family>
+        <pointsize>28</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 28pt &quot;Colonna MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Master of security</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_getGenerateP">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>320</y>
+        <width>161</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-color: rgb(75, 73, 127);
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icons8-защита-в-реальном-времени-64.png</normaloff>icons8-защита-в-реальном-времени-64.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>160</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_getConv">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>320</y>
+        <width>161</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-color: rgb(75, 73, 127);
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>pdf.png</normaloff>pdf.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>80</width>
+        <height>80</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_gethashDoc">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>160</y>
+        <width>161</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-color: rgb(75, 73, 127);
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>free-icon-sha-256-5675076.png</normaloff>free-icon-sha-256-5675076.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>160</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_getsteg">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>320</y>
+        <width>161</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-color: rgb(75, 73, 127);
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>Verification-Badge.png</normaloff>Verification-Badge.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>150</width>
+        <height>80</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>741</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_getScan">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>160</y>
+        <width>161</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-color: rgb(75, 73, 127);
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>prvkd.png</normaloff>prvkd.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>160</width>
+        <height>100</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>40</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;PMingLiU-ExtB&quot;;
+color: rgb(230, 236, 255);</string>
+      </property>
+      <property name="text">
+       <string>- сервистер</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>260</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+color: rgb(70, 0, 106);
+font: 75 10pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Файлды тексеру</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>260</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+color: rgb(70, 0, 106);
+font: 75 10pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Сайтты блоктау</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>260</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+color: rgb(70, 0, 106);
+font: 75 10pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Документті хэштеу</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>420</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+color: rgb(70, 0, 106);
+font: 75 10pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Стеганография</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>420</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+color: rgb(70, 0, 106);
+font: 75 10pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Қауіпсіз құпиясөз</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>420</y>
+        <width>191</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+color: rgb(70, 0, 106);
+font: 75 10pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Файлдарды конверттеу</string>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>pushButton_getBlockWeb</zorder>
+     <zorder>label</zorder>
+     <zorder>pushButton_getGenerateP</zorder>
+     <zorder>pushButton_getConv</zorder>
+     <zorder>pushButton_gethashDoc</zorder>
+     <zorder>pushButton_getsteg</zorder>
+     <zorder>pushButton_getScan</zorder>
+     <zorder>label_3</zorder>
+     <zorder>label_4</zorder>
+     <zorder>label_9</zorder>
+     <zorder>label_10</zorder>
+     <zorder>label_11</zorder>
+     <zorder>label_12</zorder>
+     <zorder>label_13</zorder>
+    </widget>
+    <widget class="QWidget" name="about_us">
+     <attribute name="title">
+      <string>Біз туралы</string>
+     </attribute>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>110</y>
+        <width>741</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>371</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Colonna MT</family>
+        <pointsize>28</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 28pt &quot;Colonna MT&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Master of security</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>40</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 13pt &quot;PMingLiU-ExtB&quot;;
+color: rgb(230, 236, 255);</string>
+      </property>
+      <property name="text">
+       <string>- біз туралы</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>170</y>
+        <width>171</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+border-style: solid;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>icons8-информация-160.png</normaloff>icons8-информация-160.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>170</width>
+        <height>180</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>401</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(246, 255, 255);
+font: 12pt &quot;Comic Sans MS&quot;;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Master of security – киберқауіпсіздікті қамтамасыз етуге бағытталған қосымша. Біздің мақсатымыз технологиялар заманында қолданушылардың ақпараттық қауіпсіздігін қамтамасыз ету.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_paidaly_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>400</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(216, 217, 255);
+background-color: rgb(43, 0, 65);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string>Пайдалы кеңестер</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_GService">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>400</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(216, 217, 255);
+background-color: rgb(43, 0, 65);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string>Сервистер</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_HomePage">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>400</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(216, 217, 255);
+background-color: rgb(43, 0, 65);
+font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 10px;
+border-width: 2px;
+border-color: rgb(177, 158, 235);</string>
+      </property>
+      <property name="text">
+       <string>Бастапқы бет</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
